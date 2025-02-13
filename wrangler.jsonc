@@ -6,12 +6,13 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "matka",
   "compatibility_date": "2025-02-04",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
+  "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": ".vercel/output/static",
   "observability": {
     "enabled": true
+  },
+  "vars": {
+    "NODE_VERSION": "18.18.0"
   }
   /**
    * Smart Placement
